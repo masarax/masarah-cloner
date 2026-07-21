@@ -1,0 +1,29 @@
+{
+  "name": "masarah-cloner",
+  "version": "1.0.0",
+  "description": "An AI-powered pixel-perfect website cloner. Automatically detects frontend frameworks in the workspace to structure files, organizes HTML/JS/CSS source code and public assets, and provides built-in AI Agent guidelines and reference skills for zero-loss reverse engineering.",
+  "main": "lib/index.js",
+  "bin": {
+    "masarah-cloner": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website-cloner",
+    "scraper",
+    "react-cloner",
+    "vite",
+    "nextjs",
+    "ai-agent-skill",
+    "masarah-cloner"
+  ],
+  "author": "Masarah X",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.1.0",
+    "express": "^4.19.2",
+    "express-http-proxy": "^2.0.0"
+  }
+}
