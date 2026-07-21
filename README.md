@@ -88,4 +88,4 @@ cloned_websites/
 
 ---
 License: SEE LICENSE IN LICENSE
-Developed by Masarah X for perfect frontend reverse engineering.
+Developed by MasaraX for perfect frontend reverse engineering.

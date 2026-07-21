@@ -15,6 +15,6 @@ All notable changes to the `masarah-cloner` package will be documented in this f
 - **CI/CD Workflow**: Pre-configured GitHub Action `publish.yml` for automated registry deployment on push.
 
 ### Changed
-- **Author**: Assigned to `Masarah X`.
+- **Author**: Assigned to `MasaraX`.
 - **License**: Changed to custom proprietary copyright in `LICENSE` file.
 - **Documentation**: Normalized all example links to show `https://your-domain.com`.

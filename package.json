@@ -18,7 +18,7 @@
     "ai-agent-skill",
     "masarah-cloner"
   ],
-  "author": "Masarah X",
+  "author": "MasaraX",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
