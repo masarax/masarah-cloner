@@ -2,6 +2,11 @@
 
 All notable changes to the `masarah-cloner` package will be documented in this file.
 
+## [1.0.5] - 2026-07-22
+
+### Changed
+- **Zero Deprecation Warnings**: Replaced `cheerio` with lightweight, zero-dependency `node-html-parser`, eliminating all deprecation warnings (`whatwg-encoding` warnings) during package installation.
+
 ## [1.0.4] - 2026-07-22
 
 ### Changed

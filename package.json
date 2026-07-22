@@ -1,6 +1,6 @@
 {
   "name": "masarah-cloner",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An AI-powered pixel-perfect website cloner. Automatically detects frontend frameworks in the workspace to structure files, organizes HTML/JS/CSS source code and public assets, and provides built-in AI Agent guidelines and reference skills for zero-loss reverse engineering.",
   "main": "lib/index.js",
   "bin": {
