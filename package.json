@@ -1,12 +1,13 @@
 {
   "name": "masarah-cloner",
-  "version": "1.0.5",
-  "description": "An AI-powered pixel-perfect website cloner. Automatically detects frontend frameworks in the workspace to structure files, organizes HTML/JS/CSS source code and public assets, and provides built-in AI Agent guidelines and reference skills for zero-loss reverse engineering.",
+  "version": "0.1.0",
+  "description": "An AI-powered pixel-perfect website cloner. Automatically registers global AI skills and guidelines across AI coding models (Claude, Gemini, Cursor, Windsurf, Antigravity, Copilot, etc.) for zero-loss reverse engineering.",
   "main": "lib/index.js",
   "bin": {
     "masarah-cloner": "./bin/cli.js"
   },
   "scripts": {
+    "postinstall": "node scripts/postinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
