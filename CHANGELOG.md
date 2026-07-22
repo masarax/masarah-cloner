@@ -5,7 +5,7 @@ All notable changes to the `masarah-cloner` package will be documented in this f
 ## [1.0.3] - 2026-07-22
 
 ### Added
-- **Workspace Initializer Mode**: Re-engineered CLI execution. Running `masarah-cloner` now copies the embedded AI Agent skills and guidelines directly into the current working directory.
+- **AI Agent Skill Registry**: Re-engineered CLI execution. Running `masarah-cloner` in a standard shell now only acts as a metadata command (printing usage, options, and help), preventing any automatic file or folder generation on disk.
 - **Global Installation Fix**: Removed invalid leading slash commands from package.json `bin` field, resolving global installer execution errors.
 - **Strict Anti-Hotlinking Rules**: Updated all AI skill documents to explicitly instruct agents to download all remote resources locally (no cross-origin references).
 - **Version Flag Support**: Added `-v`, `--version` commands.
