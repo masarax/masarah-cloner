@@ -25,14 +25,31 @@ function detectFramework(cwd) {
 
 async function main() {
   const args = process.argv.slice(2);
-  if (args.length === 0) {
-    console.log('\nUsage:');
-    console.log('  masarah-cloner <url-1> [url-2] ... [output_path]');
-    console.log('\nExamples:');
-    console.log('  masarah-cloner https://your-domain.com');
-    console.log('  masarah-cloner https://your-domain.com /fine1');
-    console.log('  masarah-cloner https://your-domain.com ./fine1\n');
-    process.exit(1);
+  if (args.length === 0 || args.includes('--help') || args.includes('-h')) {
+    console.log(`
+Masarah Cloner 🚀
+================
+
+An AI-powered pixel-perfect website cloner. Scrapes HTML, CSS, images, background videos, 
+Vite/React ES dynamic chunks, and outputs a ready-to-run Express server setup.
+
+Usage:
+  masarah-cloner <url-1> [url-2] ... [output_path]
+
+Options:
+  -h, --help    Show help instructions
+
+Examples:
+  # Clone single site to default folder (./cloned_websites)
+  masarah-cloner https://your-domain.com
+
+  # Clone single site to absolute folder (/fine1)
+  masarah-cloner https://your-domain.com /fine1
+
+  # Clone single site to relative folder (./fine1)
+  masarah-cloner https://your-domain.com ./fine1
+    `);
+    process.exit(0);
   }
 
   const urls = [];
@@ -97,7 +114,7 @@ async function main() {
   // Generate output package.json
   const outputPackageJson = {
     name: "cloned-websites",
-    version: "1.0.0",
+    version: "1.0.1",
     description: `Local development server for cloned pages, configured for ${framework} framework.`,
     scripts: {
       "start": "node server.js",

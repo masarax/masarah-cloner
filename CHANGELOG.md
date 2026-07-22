@@ -2,6 +2,15 @@
 
 All notable changes to the `masarah-cloner` package will be documented in this file.
 
+## [1.0.1] - 2026-07-22
+
+### Added
+- **Dynamic Local API Scraping**: Automatically fetches and writes dynamic API endpoints (e.g. `/api/status`, `/api/home_page_content`, `/api/notice`, `/api/notice/i18n`) as local JSON configurations during cloner runs, enabling offline execution.
+- **Offline API Fallback Routing**: Express generated server intercepts `/api/*` and serves static local JSON responses if present, otherwise falling back to proxy.
+- **Alias Slash Command Registration**: Changed YAML frontmatter names across all AI Agent skill sets (`.claude`, `.gemini`, `.cursor`, `.windsurf`, etc.) to `masarah-cloner` to enable `/masarah-cloner` autocomplete trigger.
+- **Slash CLI Bindings**: Added `"/masarah-cloner"` inside package.json `"bin"` keys.
+- **Help Layout Improvements**: Custom cli.js help interceptor cleanups.
+
 ## [1.0.0] - 2026-07-21
 
 ### Added
