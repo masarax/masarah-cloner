@@ -2,6 +2,11 @@
 
 All notable changes to the `masarah-cloner` package will be documented in this file.
 
+## [1.0.2] - 2026-07-22
+
+### Changed
+- **Dependencies Refactor**: Updated `cheerio` package specification to stable `^1.0.0` version, resolving transitively deprecated sub-dependency warnings (`whatwg-encoding` warnings) during install.
+
 ## [1.0.1] - 2026-07-22
 
 ### Added

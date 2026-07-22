@@ -114,7 +114,7 @@ Examples:
   // Generate output package.json
   const outputPackageJson = {
     name: "cloned-websites",
-    version: "1.0.1",
+    version: "1.0.2",
     description: `Local development server for cloned pages, configured for ${framework} framework.`,
     scripts: {
       "start": "node server.js",
