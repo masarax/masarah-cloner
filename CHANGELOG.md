@@ -2,6 +2,11 @@
 
 All notable changes to the `masarah-cloner` package will be documented in this file.
 
+## [1.0.4] - 2026-07-22
+
+### Changed
+- **CLI Cleanups**: Re-engineered shell CLI output to present an ultra-minimalistic interface (showing only usage and version options) and bypassed any interactive file creations in standard terminal runs.
+
 ## [1.0.3] - 2026-07-22
 
 ### Added

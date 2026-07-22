@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const args = process.argv.slice(2);
-const VERSION = '1.0.3';
+const VERSION = '1.0.4';
 
 // Version flag
 if (args.includes('-v') || args.includes('--version') || args.includes('-version')) {
